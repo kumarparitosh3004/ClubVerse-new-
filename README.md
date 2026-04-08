@@ -1,216 +1,250 @@
 # CLUBVERSE
 
-CLUBVERSE is a React-based institutional clubs portal designed for VIT students. It helps users explore clubs, view club-specific details, access social media handles, mark favorite clubs, and browse major events associated with each club.
+ClubVerse is a full-stack institutional clubs portal designed for VIT students. It helps users explore clubs, view detailed information, access social media handles, mark favorite clubs, and browse major events associated with each club.
+
+---
 
 ## Overview
 
-This project is built as a student-focused discovery platform for official VIT clubs and chapters. The website includes:
+This project is built as a student-focused discovery platform for official VIT clubs and chapters. It provides a centralized system where students can easily browse, search, and connect with different communities.
 
-- A branded landing page
-- Club listing cards with logos, descriptions, and social links
-- Individual club detail pages
-- Top events and extended club information
-- Favorite club support using browser local storage
-- Responsive layouts for desktop and mobile
+The website includes:
+
+- A branded landing page  
+- Club listing cards with logos, descriptions, and social links  
+- Individual club detail pages  
+- Top events and extended club information  
+- Favorite club support using browser local storage  
+- Responsive layouts for desktop and mobile  
+
+---
 
 ## Tech Stack
 
-- Frontend: React 18
-- Routing: React Router DOM
-- Styling: Plain CSS
-- Icons: Font Awesome
-- Build toolchain: Create React App (`react-scripts`)
+### Frontend
+- React 18  
+- React Router DOM  
+- HTML, CSS, JavaScript  
+- Font Awesome  
+
+### Backend
+- Node.js  
+- Express.js  
+- REST API architecture  
+- JSON-based data storage  
+
+### Build Tool
+- Create React App (react-scripts)
+
+---
 
 ## Project Structure
-
-```text
-VitXCC-new/
+clubverse/
 ├── public/
-│   ├── index.html
-│   └── manifest.json
+│ ├── index.html
+│ └── manifest.json
 ├── src/
-│   ├── assets/
-│   │   ├── clubs/
-│   │   └── vit-logo.png
-│   ├── components/
-│   │   ├── ClubList.js
-│   │   ├── ContactForm.js
-│   │   └── Navbar.js
-│   ├── data/
-│   │   └── clubs.js
-│   ├── pages/
-│   │   └── ClubDetails.js
-│   ├── App.css
-│   ├── App.js
-│   ├── index.css
-│   └── index.js
+│ ├── assets/
+│ │ ├── clubs/
+│ │ └── vit-logo.png
+│ ├── components/
+│ │ ├── ClubList.js
+│ │ ├── ContactForm.js
+│ │ └── Navbar.js
+│ ├── data/
+│ ├── pages/
+│ │ └── ClubDetails.js
+│ ├── App.css
+│ ├── App.js
+│ ├── index.css
+│ └── index.js
+├── backend/
+│ ├── data/
+│ │ └── clubs.json
+│ ├── routes/
+│ │ └── clubs.js
+│ ├── server.js
+│ ├── package.json
+│ └── package-lock.json
 ├── package.json
+├── package-lock.json
 └── README.md
-```
+
+---
 
 ## Main Features
 
-- Landing page with institutional branding and hero section
-- Club filtering by category
-- Search bar for club lookup
+- Landing page with institutional branding and hero section  
+- Club filtering by category (Tech, Cultural, Arts, NGO)  
+- Search bar for quick club lookup  
 - Club cards with:
-  - club logo
-  - short description
-  - connect-with-us social buttons
-  - favorite toggle
-  - detail page access
+  - club logo  
+  - short description  
+  - social media links  
+  - favorite toggle  
+  - detail page navigation  
 - Club detail pages with:
-  - larger logo area
-  - detailed information section
-  - top events section
-  - connect-with-us section
-  - favorite action
+  - detailed information  
+  - top events  
+  - social media access  
+  - favorite option  
 
-## Current Club Categories
+---
 
-- Tech
-- Cultural
-- Arts
-- NGO
+## Backend Integration
+
+The frontend communicates with the backend using REST APIs.
+
+The backend serves club data from a JSON file and handles API requests such as:
+
+- `GET /api/clubs` → fetch all clubs  
+- `GET /api/clubs/:id` → fetch specific club details  
+
+This makes the application dynamic and scalable.
+
+---
 
 ## Data Source Design
 
-All club-related content is currently stored in:
-
-[`src/data/clubs.js`](/Users/paritosh/Desktop/project%20webdev/VitXCC-new/src/data/clubs.js)
+All club-related content is managed by the backend in:
+backend/data/clubs.json
 
 Each club object includes:
 
-- `id`
-- `name`
-- `category`
-- `description`
-- `image`
-- `socialMedia`
-- `details`
-- `events`
+- id  
+- name  
+- category  
+- description  
+- image  
+- socialMedia  
+- details  
+- events  
 
-This makes it easy to extend the site later without changing the page structure.
+The frontend fetches this data dynamically through API calls.
+
+---
 
 ## Requirements
 
 Before running the project, make sure you have:
 
-- Node.js 18 or newer recommended
-- npm installed
+- Node.js (v18 or newer recommended)  
+- npm installed  
 
 To check:
-
-```bash
 node -v
 npm -v
-```
+
+---
 
 ## Installation
 
-Clone the project and install dependencies:
-
-```bash
+Clone the repository and install dependencies:
 npm install
-```
+
+---
 
 ## How To Run
 
-Start the development server:
+### Start Backend
+cd backend
+npm install
+node server.js
 
-```bash
+### Start Frontend
+npm install
 npm start
-```
 
-This will open the app in development mode, usually at:
+The app will run at:
+http://localhost:3000/
 
-[http://localhost:3000](http://localhost:3000)
+---
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start` → Runs the app in development mode  
+- `npm run build` → Builds the app for production  
+- `npm test` → Runs tests  
+- `npm run eject` → Ejects CRA configuration (not required)  
 
-Runs the app in development mode.
-
-### `npm run build`
-
-Builds the app for production into the `build/` folder.
-
-### `npm test`
-
-Launches the test runner in interactive watch mode.
-
-### `npm run eject`
-
-Ejects the Create React App configuration. This is irreversible and generally not needed for this project.
+---
 
 ## How Favorites Work
 
-Favorite clubs are stored in the browser using `localStorage`.
+Favorite clubs are stored using browser localStorage.
 
-This means:
+- Favorites persist across refreshes  
+- No backend database is required  
+- Clearing browser storage will remove saved favorites  
 
-- favorites persist across refreshes in the same browser
-- favorites are not stored in a backend database
-- clearing browser storage will remove saved favorites
+---
 
 ## Routing
 
-The website currently uses two main routes:
+The application uses:
 
-- `/` for the landing page and club listing
-- `/club/:id` for each club detail page
+- `/` → Landing page and club listing  
+- `/club/:id` → Individual club detail page  
+
+---
 
 ## Styling Notes
 
-The project uses custom CSS without a UI framework. Main styling lives in:
+The project uses custom CSS without any UI framework.
 
-- [src/App.css](/Users/paritosh/Desktop/project%20webdev/VitXCC-new/src/App.css)
-- [src/index.css](/Users/paritosh/Desktop/project%20webdev/VitXCC-new/src/index.css)
+Main styling files:
 
-The current design includes:
+- `src/App.css`  
+- `src/index.css`  
 
-- a professional institutional theme
-- glassmorphism-inspired hero styling
-- dark club cards
-- responsive club detail layouts
+Design includes:
+
+- modern institutional theme  
+- glassmorphism-inspired hero section  
+- dark-themed club cards  
+- responsive layouts  
+
+---
 
 ## Assets
 
-Club logos are stored locally under:
+- Club logos: `src/assets/clubs`  
+- VIT logo: `src/assets/vit-logo.png`  
 
-[`src/assets/clubs`](/Users/paritosh/Desktop/project%20webdev/VitXCC-new/src/assets/clubs)
-
-The main VIT logo used in branding is stored at:
-
-[`src/assets/vit-logo.png`](/Users/paritosh/Desktop/project%20webdev/VitXCC-new/src/assets/vit-logo.png)
+---
 
 ## Customization
 
 To add or update clubs:
 
-1. Open [src/data/clubs.js](/Users/paritosh/Desktop/project%20webdev/VitXCC-new/src/data/clubs.js)
-2. Edit the relevant club object
-3. Update the logo inside [`src/assets/clubs`](/Users/paritosh/Desktop/project%20webdev/VitXCC-new/src/assets/clubs) if needed
-4. Save the file and refresh the browser
+1. Open `backend/data/clubs.json`  
+2. Edit or add a new club object  
+3. Save the file  
+4. Refresh the application  
 
-## Suggested Future Improvements
+---
 
-- Add a backend or CMS for club data management
-- Add authentication for admin content updates
-- Add club coordinators and contact persons
-- Add event dates and registration links
-- Add better image optimization
-- Add automated tests
+## Future Improvements
+
+- Add database integration (MongoDB / SQL)  
+- Implement authentication system  
+- Add admin dashboard for club management  
+- Include event registration features  
+- Improve image optimization  
+- Add automated testing  
+
+---
 
 ## Notes
 
-- This project is currently frontend-focused
-- Club descriptions, details, and social links are manually maintained in the data file
-- Some external social/media links point to club-provided pages or shared reference links
+- The project is built as a full-stack application  
+- Backend currently uses JSON as a lightweight database  
+- Social links are based on available club information  
+
+---
 
 ## Authoring Context
 
-This project was created as a VIT institutional clubs portal concept to help students explore organizations, events, and official social handles from one place.
+This project was created as a VIT institutional clubs portal concept to help students explore organizations, events, and official social handles from one unified platform.
