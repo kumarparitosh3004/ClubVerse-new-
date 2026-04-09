@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "name": "ACM",
+    "category": "tech",
+    "description": "The ACM student chapter at VIT is a tech-focused community that hosts coding competitions, hackathons, workshops, and sessions across AI, ML, cybersecurity, and software development.",
+    "image": "/assets/clubs/acm-logo.jpg",
+    "socialMedia": {
+      "google": "https://share.google/EHa5nyErue7K3ELZ3",
+      "instagram": "https://www.instagram.com/acmvit/",
+      "linkedin": "https://www.linkedin.com/company/acmvit"
+    },
+    "details": [
+      "ACM gives students consistent exposure to coding culture through workshops, hackathons, contests, and technical community-building.",
+      "The chapter helps members explore domains such as AI, machine learning, cybersecurity, and software development in a structured environment.",
+      "Students benefit from peer learning, project-oriented participation, and stronger networking with broader tech communities."
+    ],
+    "events": [
+      {
+        "name": "Hackathons / Code-a-thons",
+        "description": "ACM regularly hosts intensive coding events where teams build solutions for real-world problem statements under time pressure while gaining practical development exposure."
+      },
+      {
+        "name": "Competitive Programming Contests",
+        "description": "The chapter runs structured coding contests that sharpen problem-solving, algorithmic thinking, and speed, helping students prepare for higher-level technical competitions."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "CODECHEF",
+    "category": "tech",
+    "description": "A student-led coding community where members learn, compete, and grow through contests, workshops, and collaborative problem-solving sessions.",
+    "image": "/assets/clubs/codechef-logo.jpeg",
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/codechefvit?igsh=MTl5ODZ3ZWxjcHhuMA==",
+      "linkedin": "https://www.linkedin.com/company/codechefvit/"
+    },
+    "details": [
+      "CodeChef VIT builds a strong competitive programming and coding culture by encouraging students to learn, practice, and compete together.",
+      "The club regularly supports problem-solving growth through coding sessions, contests, and collaborative technical activities.",
+      "It creates an approachable space for both beginners and experienced coders to improve consistency, logic, and coding confidence."
+    ],
+    "events": [
+      {
+        "name": "DEVSOC",
+        "description": "A development-focused event series that encourages students to explore building workflows, collaborate on practical ideas, and strengthen hands-on technical skills."
+      },
+      {
+        "name": "COOKOFF",
+        "description": "A competitive coding event inspired by problem-solving challenges, designed to help participants improve coding accuracy, logic, and contest readiness in a high-energy setting."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "GOOGLE DEVELOPERS GROUP",
+    "category": "tech",
+    "description": "A student-led tech community supported by Google that hosts workshops, hackathons, and hands-on projects to help students build, learn, and innovate.",
+    "image": "/assets/clubs/gdg-logo.jpeg",
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/gdgvitvellore?igsh=eHRqbDgyYXpvanhx",
+      "linkedin": "https://www.linkedin.com/company/dscvit/"
+    },
+    "details": [
+      "GDG VIT Vellore focuses on practical learning through workshops, community sessions, and collaborative project-building.",
+      "The club helps students explore modern tools and technologies while encouraging innovation, teamwork, and product thinking.",
+      "Its initiatives create a supportive environment for learning, mentorship, and stronger engagement with developer ecosystems."
+    ],
+    "events": [
+      {
+        "name": "Women Techies",
+        "description": "An initiative that highlights inclusion in technology through speaker sessions, peer learning, and opportunities that encourage more women to explore and grow in tech spaces."
+      },
+      {
+        "name": "DevJams",
+        "description": "A collaborative developer event format centered on coding, idea-building, and technical teamwork, giving students exposure to product thinking and practical implementation."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "APPLE DEVELOPERS GROUP",
+    "category": "tech",
+    "description": "A student-driven club focused on the Apple ecosystem, design thinking, and hands-on app development to turn ideas into impactful digital experiences.",
+    "image": "/assets/clubs/adg-logo.jpg",
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/adgvit?igsh=MTBjd2Vodm85NHY4Yg=="
+    },
+    "details": [
+      "The Apple Developers Group encourages students to build thoughtful user-centric products within the Apple ecosystem.",
+      "Members develop stronger design and development skills through prototype-driven exploration, app-focused learning, and creative experimentation.",
+      "The club emphasizes design thinking, clean digital experiences, and turning ideas into polished product concepts."
+    ],
+    "events": [
+      {
+        "name": "AppSprint",
+        "description": "A fast-paced app building event where participants transform ideas into polished user-focused prototypes while exploring design and development inside the Apple ecosystem."
+      },
+      {
+        "name": "Design & Code Lab",
+        "description": "A practice-driven session that blends UI thinking with coding execution, helping students build stronger product sense and create cleaner digital experiences."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "BULLS & BEARS",
+    "category": "cultural",
+    "description": "A student-led business club that explores finance, entrepreneurship, and market trends through interactive activities, discussions, and practical learning.",
+    "image": "/assets/clubs/bulls-and-bears-logo.webp",
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/company/bnbvit/"
+    },
+    "details": [
+      "Bulls & Bears introduces students to finance, business strategy, and market awareness through accessible and interactive learning formats.",
+      "The club creates an engaging environment where business concepts feel practical, collaborative, and relevant to real-world thinking.",
+      "Members get opportunities to explore entrepreneurship, financial reasoning, and teamwork through discussion-based and activity-led sessions."
+    ],
+    "events": [
+      {
+        "name": "Finance Carnival",
+        "description": "An engaging finance-themed event that introduces students to markets, decision-making, and business strategy through interactive challenges and team-based activities."
+      },
+      {
+        "name": "Cashflow",
+        "description": "A concept-driven event built around money management, investment thinking, and financial planning, making business learning more practical and approachable."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "ANOKHA (NGO)",
+    "category": "ngo",
+    "description": "A social welfare NGO at VIT focused on community service through education initiatives, awareness campaigns, donation drives, rural outreach, and volunteering activities.",
+    "image": "/assets/clubs/anokha-logo.jpeg",
+    "socialMedia": {
+      "google": "https://share.google/Hf0NW11LLVws7jSIQ"
+    },
+    "details": [
+      "Anokha is rooted in service, awareness, and meaningful community engagement beyond the campus environment.",
+      "The club actively supports outreach efforts that focus on education, health, hygiene, and access to essentials for underserved communities.",
+      "Its volunteering culture gives students a chance to contribute directly to social impact through organized ground-level initiatives."
+    ],
+    "events": [
+      {
+        "name": "Rural Outreach Program",
+        "description": "A field-based initiative where volunteers work with village communities through teaching, awareness drives, and support activities focused on health, hygiene, and education."
+      },
+      {
+        "name": "Donation Drive",
+        "description": "A large-scale community collection effort for clothes, books, and essentials that helps support underprivileged groups while encouraging responsible social participation."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "STUDENT WELFARE ASSOCIATION",
+    "category": "ngo",
+    "description": "A student support body that connects students with the administration while addressing academic, hostel, and well-being concerns through outreach and awareness activities.",
+    "image": "/assets/clubs/student-welfare-logo.jpg",
+    "socialMedia": {
+      "google": "https://share.google/GkS1P9V2T1GA5SHQ2",
+      "instagram": "https://www.instagram.com/student_welfare.association?igsh=c2oyOWNld2o1djBs"
+    },
+    "details": [
+      "The Student Welfare Association works as a support-focused body that helps students voice concerns and access the right channels on campus.",
+      "It addresses student life from a holistic perspective, including academics, hostels, well-being, and communication with the administration.",
+      "The association also promotes a healthier student experience through awareness events, outreach, and support-oriented initiatives."
+    ],
+    "events": [
+      {
+        "name": "Mental Health Awareness Campaigns",
+        "description": "Awareness drives and support-led activities that focus on stress management, counseling access, and creating a healthier emotional environment for students on campus."
+      },
+      {
+        "name": "Open House / Student Grievance Forum",
+        "description": "A student-facing platform where issues can be raised directly and discussed constructively, helping strengthen communication between students and the administration."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "VIT Cultural Club",
+    "category": "cultural",
+    "description": "A student-run cultural community that celebrates language, music, literature, and traditions through engaging events, creative expression, and campus cultural initiatives.",
+    "image": "/assets/clubs/cultural-club-logo.jpeg",
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/people/Punjabi-Literary-Association/100068130679238/",
+      "instagram": "https://instagram.com/vit_cultural",
+      "linkedin": "https://in.linkedin.com/company/pla-vit"
+    },
+    "details": [
+      "VIT Cultural Club brings students together through language, music, literature, celebration, and shared cultural identity.",
+      "The club provides a creative platform for performances, themed events, and expressive initiatives rooted in cultural traditions.",
+      "Its activities strengthen community spirit while helping students remain connected to heritage and artistic expression on campus."
+    ],
+    "events": [
+      {
+        "name": "Lohri Nooran Di Raat",
+        "description": "A festive cultural celebration inspired by Punjabi traditions, music, and community spirit, bringing students together through performance and heritage-based activities."
+      },
+      {
+        "name": "Punjabiyan Di Mehfil",
+        "description": "A lively gathering centered on Punjabi cultural expression, featuring music, interaction, and performances that help students stay connected to language and tradition."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "VIT Fine Arts Club",
+    "category": "arts",
+    "description": "The official student-run fine arts club at VIT that promotes painting, sketching, digital art, exhibitions, workshops, and creative competitions.",
+    "image": "/assets/clubs/fine-arts-logo.jpg",
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/thefineartsclubvit/",
+      "instagram": "https://www.instagram.com/thefineartsclubvit?igsh=MWlheGFtYTlsbThqYw=="
+    },
+    "details": [
+      "The Fine Arts Club supports students interested in visual art, design, and creative experimentation across traditional and digital mediums.",
+      "It helps members build artistic confidence through workshops, themed showcases, and opportunities to present original work.",
+      "The club fosters a strong creative culture where artistic expression and collaborative making are both encouraged."
+    ],
+    "events": [
+      {
+        "name": "Sustainable Strokes",
+        "description": "A themed art initiative that encourages participants to create meaningful work around sustainability, blending creativity with environmental awareness."
+      },
+      {
+        "name": "The Artistic Flame",
+        "description": "A showcase-driven event that celebrates originality and expression through visual art, giving students a platform to present their style and creative identity."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "VIT Photography Club",
+    "category": "arts",
+    "description": "The official student-run photography club at VIT, covering major campus events while helping members grow in photography, videography, editing, and visual storytelling.",
+    "image": "/assets/clubs/photography-logo.jpeg",
+    "socialMedia": {
+      "linkedin": "https://in.linkedin.com/company/the-photography-club-vit"
+    },
+    "details": [
+      "The Photography Club documents major campus moments while helping members strengthen visual storytelling and camera-based creative work.",
+      "Students get exposure to photography, editing, composition, and media production through active event coverage and club projects.",
+      "The club also provides space to develop personal style through conceptual shoots, themed work, and collaborative creative practice."
+    ],
+    "events": [
+      {
+        "name": "GHAR",
+        "description": "A visual storytelling concept that explores spaces, memory, and belonging through photography, encouraging participants to capture emotion and narrative through frames."
+      },
+      {
+        "name": "Moon Light",
+        "description": "A black-and-white themed photography experience that pushes participants to focus on contrast, composition, mood, and storytelling beyond color."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "VIT Entrepreneurship Cell",
+    "category": "tech",
+    "description": "Promotes startup culture and innovation through pitch competitions, guest talks, mentorship, funding guidance, and incubation support for aspiring student founders.",
+    "image": "/assets/clubs/e-cell-logo.jpg",
+    "socialMedia": {
+      "google": "https://share.google/RnSEFolhrotWBSXpt",
+      "instagram": "http://instagram.com/ecell_vit/?hl=en",
+      "facebook": "https://www.facebook.com/ecellvit/",
+      "linkedin": "https://in.linkedin.com/company/ecellvitvellore"
+    },
+    "details": [
+      "The Entrepreneurship Cell builds startup awareness and innovation culture by connecting students with entrepreneurial opportunities and support systems.",
+      "It encourages idea-building through pitch events, guest interactions, and exposure to mentorship, incubation, and funding guidance.",
+      "The club helps aspiring founders move from curiosity to execution by making entrepreneurship more approachable and action-oriented."
+    ],
+    "events": [
+      {
+        "name": "Startup Pitch Competition",
+        "description": "A platform where student founders present ideas to mentors, judges, and potential supporters while gaining feedback on business models and execution."
+      },
+      {
+        "name": "Entrepreneurship Summit / Guest Talks",
+        "description": "Industry-focused sessions featuring entrepreneurs, networking opportunities, and startup insights that help students understand innovation and venture building."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "GUJARAT ASSOCIATION CLUB (GLA)",
+    "category": "cultural",
+    "description": "A student-run cultural and literary club that celebrates Gujarati language, literature, heritage, and creative expression through events, workshops, and community activities.",
+    "image": "/assets/clubs/gla-logo.jpg",
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/gla_vit?igsh=ajVtZmE4Yzljem84",
+      "linkedin": "https://in.linkedin.com/company/gla-vit-vellore"
+    },
+    "details": [
+      "GLA celebrates Gujarati language, literature, art, and cultural identity through student-led events and creative participation.",
+      "The club gives students a platform to engage with heritage through storytelling, themed activities, and culturally rooted expression.",
+      "Its community-driven approach helps strengthen belonging, pride, and connection through language and tradition on campus."
+    ],
+    "events": [
+      {
+        "name": "Threads of Kutch",
+        "description": "A culture-rich event inspired by Gujarat’s artistic heritage, bringing together design, tradition, and regional identity through creative participation."
+      },
+      {
+        "name": "Legacy of Valor",
+        "description": "An event built around pride, history, and storytelling, celebrating the legacy and cultural spirit associated with Gujarat’s heritage and identity."
+      }
+    ]
+  }
+]
